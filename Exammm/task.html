@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Form</title>
+    <link rel="stylesheet" href="task.css">
+    <script src="task.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Ivan Goshovskyi w70371</h1>
+    </header>
+    <main>
+        <form id="arrayForm">
+            <ul>
+                <li><input type="text" id="name" placeholder="Enter your name "></li>
+                <li><input type="text" id="surname" placeholder="Enter your surname "></li>
+                <li><input type="number" id="age" placeholder="Enter your age "></li>
+                <li><button type="button" onclick="publishToTable()">Add</button></li>
+            </ul>
+        </form>
+        <aside>
+            <div id="tables">
+                <table id="table">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Surname</th>
+                      <th>Age</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2023</p>
+    </footer>
+</body>
+</html>
